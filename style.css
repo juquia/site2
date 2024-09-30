@@ -168,8 +168,92 @@ html, body {
 
 .titulo2{
   font-size: 45px;
-  color: white;
+  color: black;
   margin-bottom: 1em;
-  text-align:
+  text-align: center;
+  font-family: "Nerko One", cursive;
+}
+
+.secundario{
+  align-items: center;
+  margin: 0 1em;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.descricao{
+  font-family: "Nerko One", cursive;
+  text-align: center;
+  font-size: 25px;
+}
+
+.imagem2{
+  width:80%
+}
+
+/*PÁGINA FINAL*/
+
+.titulo3{
+  font-weight: 700;
+  font-size: 45px;
+  color:white;
+  margin-bottom:1em;
+  text-align: center;
+}
+.dispositivos{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.dispositivos img{
+  height: 100px;
+  padding: 0 50px;
+}
+
+.item{
+  font-size: 32px;
+  color:white;
+  padding: 0 50px;
+}
+
+.lista, .rodapelista{
+  display:flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+  font-family: "Nerko One", cursive;
+}
+
+.listalink a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-left: 1em;
+}
+
+.listalink:hover{
+  color: #5E1B69;
+}
+
+
+.rodapetexto{
+  margin: 1em;
+  color: grey;
+  font-size: 15px;
+}
+
+.logo2{
+  height: 350px;
+}
+
+.listalink a:active{
+  color: purple;
+}
+
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
 }
 
